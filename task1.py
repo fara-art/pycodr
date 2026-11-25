@@ -1,11 +1,11 @@
-n = int(input())
+N = int(input())
 
-first = 1
-second = 1
+A = 1
+B = 1
 
-while second <= n:
-    next_number = first + second
-    first = second
-    second = next_number
+while B <= N:
+    C = A + B
+    A = B
+    B = C
 
-print(second)
+print(B)
