@@ -1,10 +1,10 @@
-n = int(input())
+N = int(input())
 
-k = 0
-power = 1
+A = 0
+B = 1
 
-while power * 3 <= n:
-    power = power * 3
-    k = k + 1
+while B * 3 <= N:
+    B = B * 3
+    A = A + 1
 
-print(k)
+print(A)
