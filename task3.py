@@ -1,17 +1,16 @@
-n = int(input())
+N = int(input())
 
-left = float(input())
-middle = float(input())
-answer = 0
+A = float(input())
+B = float(input())
+C = 0
 
-for position in range(2, n):
-    right = float(input())
+for D in range(2, N):
+    E = float(input())
 
-    if answer == 0:
-        if not (middle > left and middle > right) and not (middle < left and middle < right):
-            answer = position
+    if C == 0 and not ((B > A and B > E) or (B < A and B < E)):
+        C = D
 
-    left = middle
-    middle = right
+    A = B
+    B = E
 
-print(answer)
+print(C)
