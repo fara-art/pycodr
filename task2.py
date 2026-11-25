@@ -1,13 +1,13 @@
-x = float(input())
-p = float(input())
+A = float(input())
+B = float(input())
 
-day = 1
-distance = x
-total = x
+C = 1
+D = A
+E = A
 
-while total <= 5:
-    distance = distance + distance * p / 100
-    total = total + distance
-    day = day + 1
+while E <= 5:
+    D = D + D * B / 100
+    E = E + D
+    C = C + 1
 
-print(day)
+print(C)
